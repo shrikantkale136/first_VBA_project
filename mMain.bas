@@ -12,7 +12,7 @@ answer = MsgBox("Do you want to Continue?", vbQuestion + vbYesNo, "Generate Port
         Call GeneratePPT
         Call CoverPage
     Else
-        Debug.Print ("Validation FAILED")
+        Debug.Print ("Validation FAILED !")
     End If
   Else
   End If
